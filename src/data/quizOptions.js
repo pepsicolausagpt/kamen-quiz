@@ -1,8 +1,8 @@
 export const stoneModelOptions = [
-  { value: "elba", label: "Эльба", image: "/kamen-quiz/images/elba.jpg" },
-  { value: "sicily", label: "Сицилия", image: "/kamen-quiz/images/sicily.jpg" },
-  { value: "tavola", label: "Тавола", image: "/kamen-quiz/images/tavola.jpg" },
-  { value: "corsica", label: "Корсика", image: "/kamen-quiz/images/corsica.jpg" },
+  { value: "elba", label: "Эльба", subtitle: "Цена за 1 м/п - 4200 руб.", image: "/kamen-quiz/images/elba.jpg" },
+  { value: "sicily", label: "Сицилия", subtitle: "Цена за 1 м/п - 4950 руб.", image: "/kamen-quiz/images/sicily.jpg" },
+  { value: "tavola", label: "Тавола", subtitle: "Цена за 1 м/п - 4700 руб.", image: "/kamen-quiz/images/tavola.jpg" },
+  { value: "corsica", label: "Корсика", subtitle: "Цена за 1 м/п - 5000 руб.", image: "/kamen-quiz/images/corsica.jpg" },
 ];
 
 export const colorOptions = [
