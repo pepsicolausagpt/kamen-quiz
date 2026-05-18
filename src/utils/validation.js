@@ -10,7 +10,7 @@ export function validateStep(stepId, formData) {
   };
 
   if (stepId === "stoneModel") {
-    requireField("stoneModel", "Выберите модель бордюрного камня");
+    requireField("stoneModel", "Выберите модель бортового камня");
   }
 
   if (stepId === "color") {

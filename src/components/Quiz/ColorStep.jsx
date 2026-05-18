@@ -5,8 +5,8 @@ export default function ColorStep({ formData, onFieldChange, error }) {
     <section className="step">
       <div className="step__header">
         <p className="eyebrow">Цветовое решение</p>
-        <h2>Цвет бордюрного камня</h2>
-        <p>Выберите цвет бордюрного камня, который будет лучше всего гармонировать с дизайном Вашей зоны отдыха</p>
+        <h2>Цвет бортового камня</h2>
+        <p>Выберите цвет бортового камня, который будет лучше всего гармонировать с дизайном Вашей зоны отдыха</p>
       </div>
 
       <div className="card-grid card-grid--types">

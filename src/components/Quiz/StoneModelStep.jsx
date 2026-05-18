@@ -5,8 +5,8 @@ export default function StoneModelStep({ formData, onFieldChange, error }) {
     <section className="step">
       <div className="step__header">
         <p className="eyebrow font-serif text-aqua-dark">Выбор модели</p>
-        <h2>Модель бордюрного камня</h2>
-        <p>Выберите подходящую форму и ширину бордюрного камня для вашего бассейна</p>
+        <h2>Модель бортового камня</h2>
+        <p>Выберите подходящую форму и ширину бортового камня для вашего бассейна</p>
       </div>
 
       <div className="card-grid card-grid--types">

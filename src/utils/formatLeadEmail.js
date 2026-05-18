@@ -25,7 +25,7 @@ export function formatLeadEmail(leadData) {
     .join(" ");
 
   return [
-    "Новая заявка на расчет бордюрного камня для бассейна",
+    "Новая заявка на расчет бортового камня для бассейна",
     "",
     "Контакты клиента:",
     `ФИО: ${fullName || "Не указано"}`,
@@ -33,7 +33,7 @@ export function formatLeadEmail(leadData) {
     `Телефон: ${formatValue(contact.phone)}`,
     `Email: ${formatValue(contact.email)}`,
     "",
-    "Параметры бордюрного камня:",
+    "Параметры бортового камня:",
     `Модель камня: ${formatValue(leadData.stoneModel)}`,
     `Цвет камня: ${formatValue(leadData.color)}`,
     "",
